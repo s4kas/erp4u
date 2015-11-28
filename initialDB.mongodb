@@ -1,0 +1,7 @@
+db.createUser({user:"erp4u",pwd:"erp4u",roles:[{role:"readWrite", db:"erp4u"}]})
+
+db.producttypes.insert({name: 'Malte'})
+db.producttypes.insert({name: 'Lúpulo'})
+
+db.purchasestatuses.insert({name: 'Nova'})
+db.purchasestatuses.insert({name: 'Completada'})

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="erp4u">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/bootstrap-datepicker.min.css">
+
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/angular.min.js"></script>
+	<script src="/js/angular-route.min.js"></script>
+	<script src="/js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+	<script src="/js/bootstrap-datepicker.min.js"></script>
+	<script src="/locales/bootstrap-datepicker.pt.min.js"></script>
+
+	<script src="/controllers/main.js"></script>
+	<script src="/controllers/purchase.js"></script>
+	<script src="/index.js"></script>
+	
+	<title>ERP4U - Enterprise Resource Planning</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-default" ng-init="item = 0">
+				<div role="navigation" class="container-fluid">
+			    	<div class="navbar-header">
+			      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+			        		<span class="sr-only">Toggle navigation</span>
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+						</button>
+			      		<a ng-click="item = 0" class="navbar-brand" href="#/">
+			      			<img alt="Cerveja XANGA" src="img/xangaIcon.png">
+			      		</a>
+			    	</div>
+
+			    	<div class="collapse navbar-collapse" id="main-navbar-collapse">
+			      		<ul class="nav navbar-nav">
+			        		<li ng-class="{active:item == 1}"><a ng-click="item = 1" href="#/purchases">Compras</a></li>
+			        		<li ng-class="{active:item == 2}"><a ng-click="item = 2" href="#">Link</a></li>
+			        		<li ng-class="{active:item == 3}" role="presentation" class="dropdown">
+    							<a ng-click="item = 3" class="dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span>
+    							</a>
+    							<ul class="dropdown-menu">
+     								<li><a href="#/purchases">Compras</a></li>
+						            <li><a href="#">Another action</a></li>
+						            <li><a href="#">Something else here</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Separated link</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">One more separated link</a></li>
+    							</ul>
+  							</li>
+			      		</ul>
+			    	</div><!-- /.navbar-collapse -->
+			  	</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+
+		<div class="row">
+			<div id="view" ng-view></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+    "description": "20151119001",
+    "supplier": "",
+    "products" : [
+        {
+            "product": "",
+            "quantity": 10,
+            "quantityPrice": 25
+        },
+        {
+            "product": "",
+            "quantity": 11,
+            "quantityPrice": 89
+        }
+    ],
+	"status" : "564e45a34ab83f378b18d0d4"
+}
+
+{
+    "name": "Malte Base Pale Ale",
+    "description": "Malte Base Pale Ale, base para cervejas Ale, Stout e outras",
+    "type" : "564e39e94ab83f378b18d0ce"
+}
+
+{
+    "name": "Lúpulo Cascade",
+    "description": "Lúpulo Cascade",
+    "type" : "564e39e94ab83f378b18d0cf"
+}
+
+{
+    "name": "Oficina da Cerveja"
+}

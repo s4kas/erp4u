@@ -1,0 +1,21 @@
+{
+  "name": "erp4u",
+  "version": "0.0.0",
+  "description": "ERP Application",
+  "main": "server.js",
+  "author": "Cerveja XANGA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s4kas/erp4u.git"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "node-aop": "^0.1.0",
+    "util": "^0.10.3"
+  }
+}

@@ -1,0 +1,256 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"bCrypt"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"e",
+				"erp4uApp"
+			],
+			[
+				"s",
+				"Schema"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"glu",
+				"Glue - Launch"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brunomarques/Google Drive/erp4u/app.js",
+		"/Users/brunomarques/Google Drive/testes/app.js",
+		"/Users/brunomarques/Google Drive/testes/bin/www",
+		"/Users/brunomarques/Google Drive/erp4u/package.json",
+		"/Users/brunomarques/Google Drive/erp4u/passport-init.js",
+		"/Users/brunomarques/Google Drive/erp4u/routes/authenticate.js",
+		"/Users/brunomarques/Google Drive/erp4u/routes/api.js",
+		"/Users/brunomarques/Google Drive/erp4u/app/main.html",
+		"/Users/brunomarques/Google Drive/erp4u/app/js/erp4uApp.js",
+		"/Users/brunomarques/Google Drive/erp4u/server.js",
+		"/Users/brunomarques/Google Drive/erp4u/erp4u.sublime-workspace",
+		"/Users/brunomarques/Google Drive/erp4u/app/erp4uApp.js",
+		"/Users/brunomarques/Google Drive/erp4u/main.js",
+		"/Users/brunomarques/Google Drive/erp4u/app/index.html",
+		"/Users/brunomarques/Google Drive/erp4u/app/js/views/MainView.js",
+		"/Users/brunomarques/Google Drive/erp4u/app/js/router/MainRouter.js",
+		"/Users/brunomarques/Google Drive/erp4u/app/js/views/cabin/CabinView.js",
+		"/Users/brunomarques/Google Drive/erp4u/app/templates/mainTemplate.html",
+		"/Users/brunomarques/Google Drive/erp4u/app/js/main.js",
+		"/Users/brunomarques/Google Drive/erp4u/config.js",
+		"/Users/brunomarques/Google Drive/erp4u/app/messages/index.html",
+		"/Users/brunomarques/Google Drive/erp4u/app/erp4u/index.html",
+		"/Users/brunomarques/Google Drive/messages/index.html",
+		"/Users/brunomarques/Google Drive/erp4u/erp4u-app/index.html",
+		"/Users/brunomarques/Google Drive/erp4u/erp4u-app/test.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"').",
+			"sort"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

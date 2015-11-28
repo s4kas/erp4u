@@ -1,0 +1,1 @@
+angular.module('erp4u',['ngRoute','main','purchase']);
